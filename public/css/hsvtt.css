@@ -1,0 +1,125 @@
+html {
+  width: 100%;
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%; 
+  width: 100%;
+  font-size: 75%;
+  font-family: Arial, verdana, Helvetica, Sans-serif;
+  /*font-family: "Comic Sans MS", cursive, sans-serif;*/
+  line-height: 1.88889;
+  color: #555; 
+  background: #eee;	
+  margin: 0; 
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+p { 
+  margin-top: 0; 
+  text-align: justify;
+}
+
+h1 {
+	margin-bottom: -30px;
+}
+
+h3 { 
+  font: italic normal 1.4em georgia, sans-serif;
+  letter-spacing: 1px; 
+  margin-bottom: 0; 
+  color: #7D775C;
+}
+
+a:link {  
+  text-decoration: none; 
+  color: #433a3a;
+}
+
+a:visited {  
+  text-decoration: none; 
+  color: #433a3a;
+}
+
+a:hover, a:active { 
+  text-decoration: underline; 
+  color: #433a3a;
+}
+
+#content {
+	width: 400px;
+}
+
+#contentHead {
+  background: #fff;
+  text-align: center;
+}
+
+/*#contentBody {	
+  height: 100px;
+  width: 270px; 
+  background: #555;
+  padding: 75px;  
+}*/
+
+#hours {
+  width: 250px;
+  color: #fff;
+  background: #d9201b;
+  margin: 15px;  
+  text-align: center;
+  margin-left: 75px;
+}
+
+#container {
+  height: 100%;
+  width: 100%; 
+  color: #000;  
+  background: #fff;
+  float: right;
+}
+
+
+@media all and (max-width: 499px) {
+	#container {
+		height: 80%;
+	}
+}
+
+@media all and (min-width: 500px) {
+	#container {
+		width: 300px;
+	}
+}
+@media all and (min-width: 750px) {
+	#container {
+		width: 550px;
+	}
+}
+@media all and (min-width: 1000px) {
+	#container {
+		width: 700px;
+	}
+}
+@media all and (min-width: 1250px) {
+	#container {
+		width: 900px;
+	}
+}
+@media all and (min-width: 1500px) {
+	#container {
+		width: 1200px;
+	}
+}
+
+#transitMap { 
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  float: right;
+}
